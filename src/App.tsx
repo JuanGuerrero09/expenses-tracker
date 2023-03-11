@@ -3,17 +3,19 @@ import './App.css'
 import Header from './components/Header'
 import Balance from './components/Balance'
 import Buttons from './components/Buttons'
-import BudgetCard from './components/BudgetCard'
+import BudgetList from './components/BudgetList'
+import TransactionList from './components/TransactionList'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="App flex flex-col ml-auto mr-auto max-w-screen-md">
       <Header/>
       <Balance/>
       <Buttons/>
-      <BudgetCard/>
+      <TransactionList />
+      <BudgetList />
     </div>
   )
 }
