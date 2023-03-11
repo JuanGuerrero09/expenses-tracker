@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Cellphone",
+        "budget": "others",
+        "amount": -1200
+    },
+    {
+        "name": "Salary",
+        "amount": 900
+    },
+    {
+        "name": "Salary",
+        "amount": 900
+    },
+    {
+        "name": "Cellphone",
+        "budget": "others",
+        "amount": -1200
+    }
+]
